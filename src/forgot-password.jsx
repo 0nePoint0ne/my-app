@@ -46,6 +46,10 @@ class ForgotPassword extends React.Component {
     }
   }
 
+  recoverPassword(){
+    
+  }
+
  
   render() {
     return (

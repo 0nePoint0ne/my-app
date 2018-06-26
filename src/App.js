@@ -3,7 +3,7 @@ import logo from './AppleOnTopOfBooks.jpg';
 import Modal from 'react-modal';
 import './App.css';
 import LoginMenu from './modal-login.jsx';
-
+import CheapNav from './cheap-nav.jsx';
 import BootStrap from './bootstrap/css/bootstrap.css';
 import './site.css';
 
@@ -24,8 +24,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header2">
-          
-          
+    
+          <CheapNav/>
         </header>
         <p className="App-intro">
           <LoginMenu/>

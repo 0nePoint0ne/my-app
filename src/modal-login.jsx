@@ -41,7 +41,7 @@ class LoginMenu extends React.Component {
  
   closeModal() {
    // if(this.tryLoginUser() == true){
-     // this.setState({modalIsOpen: false});
+     this.setState({modalIsOpen: false});
   ///  }
 
   }
@@ -73,7 +73,7 @@ class LoginMenu extends React.Component {
         >
  
         
-          <div className = "centerContent">
+          <div>
           <img src={logo} className="App-logo2" alt="logo" />
           <form>
         

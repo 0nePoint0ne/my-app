@@ -41,7 +41,7 @@ class LoginMenu extends React.Component {
  
   closeModal() {
    // if(this.tryLoginUser() == true){
-      this.setState({modalIsOpen: false});
+     // this.setState({modalIsOpen: false});
   ///  }
 
   }
